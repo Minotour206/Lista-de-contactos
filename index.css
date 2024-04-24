@@ -1,0 +1,136 @@
+body{
+    background-color: rgb(83, 132, 223);
+}
+
+h1{
+    background-color:rgb(40, 100, 211);
+}
+
+.añadir-btn>.añadir-icon{
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.caja1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input-name{
+    flex: 1;
+    height: 35px;
+}
+
+ul{
+    list-style-type: none;
+    min-height: 10rem;
+    max-height: 15rem;
+    overflow-y: scroll;
+    padding-left: 0;
+}
+
+ul>li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    background-color: rgb(57, 102, 185);
+}
+
+ul>li>p{
+    color: white;
+    background-color: rgb(83, 132, 223);
+    border: black solid 2px;
+}
+
+.p2{
+    color: black;
+    background-color: white;
+    border: black solid 2 px;
+}
+
+ol{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ol>li{
+    display: inline-flex;
+    flex-direction:row;
+    align-items: center;
+    gap: 9.7rem;
+    justify-content: space-between;
+    border: 2px solid black;
+    background-color: rgb(57, 102, 185);
+}
+
+li>p{
+    color: white;
+}
+
+.borrar-btn>.borrar-icon{
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.borrar-btn:active{
+    color: red;
+}
+
+.borrar-btn:hover{
+    color: red;
+}
+
+.editar-btn>.editar-icon{
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+
+.editar-btn:active{
+    color: rgb(105, 128, 0);
+}
+.editar-btn:hover{
+    color: rgb(105, 128, 0);
+}
+
+.listo-btn>.listo-icon{
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+
+.listo-btn:active{
+    color: green;
+}
+.listo-btn:hover{
+    color: green;
+}
+
+
+@media (max-width: 905px) {
+    ol>li{
+        width: 400px;
+    }
+    li>input{
+        width: 100px;
+    }
+}
+
+@media (min-width: 936px) {
+    ol>li{
+        width: 300px;
+    }
+}
